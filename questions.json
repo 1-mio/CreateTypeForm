@@ -1,0 +1,90 @@
+[
+    {
+        "type": "short_text",
+        "title": "Como você se chama?",
+        "properties": {
+            "description": "(Ex.: Ariel da Silva)"
+        }
+    },
+    {
+        "type": "short_text",
+        "title": "Qual é seu principal E-mail?",
+        "properties": {
+            "description": "(Ex.: ariel@exemplo.com)"
+        }
+    },
+    {
+        "type": "short_text",
+        "title": "Área de Atuação na gestão municipal?",
+        "properties": {
+            "description": "(Ex.: Prefeitura, Secretaria de Juventude, Secretaria da Educação, CMDCA, etc...)"
+        }
+    },
+    {
+        "type": "multiple_choice",
+        "title": "Cargo ocupado na gestão municipal?",
+        "properties": {
+            "choices": [
+                {"label": "Prefeito/a"},
+                {"label": "Vice-prefeito/a"},
+                {"label": "Secretário/a Municipal de Assistência Social"},
+                {"label": "Secretário/a Municipal de Educação"},
+                {"label": "Presidente do CMDCA"},
+                {"label": "Articulador/a do Selo UNICEF"},
+                {"label": "Mobilizador/a de Adolescentes e Jovens"},
+                {"label": "Outro"}
+            ]
+        }
+    },
+    {
+        "type": "short_text",
+        "title": "Se a resposta anterior for 'Outro', especifique qual é o cargo:"
+    },
+    {
+        "type": "multiple_choice",
+        "title": "Como você conheceu o 1MiO?",
+        "properties": {
+            "choices": [
+                {"label": "Instagram"},
+                {"label": "Facebook"},
+                {"label": "YouTube"},
+                {"label": "Google"},
+                {"label": "Newsletter"},
+                {"label": "Portal de notícias"},
+                {"label": "Outro"}
+            ]
+        }
+    },
+    {
+        "type": "multiple_choice",
+        "title": "Com que frequência você ou sua equipe acessa a plataforma 1MiO?",
+        "properties": {
+            "choices": [
+                {"label": "Diariamente"},
+                {"label": "Semanalmente"},
+                {"label": "Mensalmente"},
+                {"label": "Raramente"},
+                {"label": "Nunca"}
+            ]
+        }
+    },
+    {
+        "type": "long_text",
+        "title": "Como o 1MiO pode ajudar seu município?"
+    },
+    {
+        "type": "long_text",
+        "title": "Qual a principal demanda da juventude do seu município referente ao mundo do trabalho?"
+    },
+    {
+        "type": "multiple_choice",
+        "title": "Você toparia participar de um encontro virtual com o 1MiO/UNICEF?",
+        "properties": {
+            "choices": [
+                {"label": "Sim"},
+                {"label": "Não"},
+                {"label": "Talvez"}
+            ]
+        }
+    }
+]
